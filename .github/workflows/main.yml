@@ -1,6 +1,6 @@
 on : create
 jobs:
   say:
-    runs-on: ubuntu-latest
+    runs-on: hii
     steps:
      - run : echo "hello!"
