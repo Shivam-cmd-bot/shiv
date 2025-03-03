@@ -3,4 +3,4 @@ jobs:
   say:
     runs-on: whom
     steps:
-     - run : hii
+    - run : hii
