@@ -1,4 +1,4 @@
-on : create
+on : schedule
 jobs:
   say:
     runs-on: whom
