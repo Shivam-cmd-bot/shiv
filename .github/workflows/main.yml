@@ -3,4 +3,4 @@ jobs:
   say:
     runs-on: whom
     steps:
-     - run : echo "hello!"
+     - run : hii
