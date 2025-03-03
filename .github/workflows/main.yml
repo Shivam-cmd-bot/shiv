@@ -2,4 +2,4 @@ on : create
 
 jobs:
   say:
-    runs-on: hello
+    runs-on: ubuntu-latest
