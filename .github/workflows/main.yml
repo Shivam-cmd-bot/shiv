@@ -1,6 +1,6 @@
 on : create
 jobs:
   say:
-    runs-on: hii
+    runs-on: whom
     steps:
      - run : echo "hello!"
