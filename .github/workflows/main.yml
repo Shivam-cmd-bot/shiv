@@ -1,4 +1,4 @@
-
+on : create
 jobs:
   say:
     runs-on: ubuntu-latest
