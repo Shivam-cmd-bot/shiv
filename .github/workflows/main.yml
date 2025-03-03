@@ -4,4 +4,4 @@ jobs:
   say:
     runs-on: ubuntu-latest
     steps:
-     - run : echo "hello"
+     - run : echo "hello!"
