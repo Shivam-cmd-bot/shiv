@@ -1,6 +1,0 @@
-on : schedule
-jobs:
-  say:
-    runs-on: whom
-    steps:
-    - run : hii
