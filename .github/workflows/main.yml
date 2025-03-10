@@ -5,8 +5,8 @@ jobs:
     steps:
      - name : hi
        env:
-         super_secret: ${{ secrets.a }}
-       run :   exampl "$super_secret"
+         sup: ${{ secrets.a }}
+       run :   exam "$sup"
    
     
   
