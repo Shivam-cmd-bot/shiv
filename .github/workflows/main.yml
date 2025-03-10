@@ -5,8 +5,8 @@ jobs:
     steps:
      - name : hi
        env:
-         hii : ${{ secret.SEC }}
-       run :  "$hii" 
+         super_secret: ${{ secrets.SUPERSECRET }}
+       run :   example-command "$super_secret"
    
     
   
