@@ -6,7 +6,7 @@ jobs:
      - name : hi
        env:
          super_secret: ${{ secrets.a }}
-       run :   example-command "$super_secret"
+       run :   exampl "$super_secret"
    
     
   
