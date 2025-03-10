@@ -5,7 +5,7 @@ jobs:
     steps:
      - name : hi
        env:
-         hii : ${{ secret.sec}}
+         hii : ${{ secret.sec }}
        run :  "$hii" 
    
     
