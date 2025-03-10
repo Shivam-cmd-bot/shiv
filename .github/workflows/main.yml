@@ -1,0 +1,14 @@
+on : push
+jobs:
+  say: 
+    runs-on : hi
+    steps:
+     - name : hi
+       env:
+         hii : ${{secret}}
+       run : 
+         "$hii" 
+   
+    
+  
+
