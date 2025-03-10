@@ -1,6 +1,6 @@
 on : push
 jobs:
-  say: 
+  build: 
     runs-on : hi
     steps:
      - name : hi
