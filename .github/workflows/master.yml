@@ -1,11 +1,11 @@
 on : 
  label :
-  types : 
-   - hii
+   types : 
+     - hii
 jobs:
   hii:
    runs-on : hi
    steps:
-   - run : hi
+     - run : hi
   
   
