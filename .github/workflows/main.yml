@@ -1,5 +1,5 @@
 on : push
-label:
+jobs:
   build: 
     runs-on : hi
     steps:
