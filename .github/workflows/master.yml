@@ -1,6 +1,11 @@
-on:
-  label:
-    types:
-      - created
+on : 
+ label :
+  types : 
+   - hii
+jobs:
+  hii:
+   runs-on : hi
+   steps:
+   - run : hi
   
   
