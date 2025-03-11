@@ -5,8 +5,8 @@ jobs:
     steps:
      - name : hi
        env:
-         sup: ${{ secrets.a }}
-       run :   exam "$sup"
+         sup: ${{ secrets.MY_TOKEN }}
+       run :   exam "$sup" --add-label "t"
    
     
   
