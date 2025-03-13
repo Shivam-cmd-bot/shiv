@@ -1,12 +1,12 @@
 on : push
 jobs:
-  build: 
-    runs-on : hi
+  build:
+    runs-on : ubuntu-latest
     steps:
-     - name : hi
-       env:
-         sup: ${{ secrets.MY_TOKEN }}
-       run :   exam "$sup" --add-label "t"
+       - name : hi
+         env :
+          a : ${{ b.s }}
+          run : a "$a"
    
     
   
