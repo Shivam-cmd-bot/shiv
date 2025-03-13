@@ -6,7 +6,7 @@ jobs:
        - name : hi
          env :
             a : ${{ b.s }}
-         run : c $a
+         run : c '$a'
    
     
   
