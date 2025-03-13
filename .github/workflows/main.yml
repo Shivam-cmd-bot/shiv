@@ -5,7 +5,7 @@ jobs:
     steps:
        - name : hi
          env :
-            a : ${{ b.s }}
+            a : ${{ secrets.s }}
          run : c '$a'
    
     
