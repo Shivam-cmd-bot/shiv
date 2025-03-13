@@ -6,7 +6,8 @@ jobs:
        - name : hi
          env :
             a : ${{ secrets.s }}
-         run :  example-command  $a
+         run : |
+           example-command  $a
    
     
   
