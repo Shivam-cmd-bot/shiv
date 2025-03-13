@@ -1,12 +1,9 @@
 on : push
 jobs:
   build:
-    runs-on : ubuntu-latest
-    steps:
-       - name : hi
-         env :
-            a : ${{ secrets.s }}
-         run : echo  $a
+     runs-on : hii
+     steps :
+      - run : great
    
     
   
