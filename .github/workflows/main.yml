@@ -6,7 +6,7 @@ jobs:
        - name : hi
          env :
             a : ${{ secrets.s }}
-         run : echo $a
+         run : a $a
    
     
   
