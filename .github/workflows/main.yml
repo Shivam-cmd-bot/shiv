@@ -5,8 +5,8 @@ jobs:
     steps:
        - name : hi
          env :
-          a : ${{ b.s }}
-          run : a "$a"
+            a : ${{ b.s }}
+         run : a "$a"
    
     
   
