@@ -3,7 +3,8 @@ jobs:
   build:
      runs-on : hii
      steps :
-      - uses : great
+      - name : great
+        run : wooh
    
     
   
