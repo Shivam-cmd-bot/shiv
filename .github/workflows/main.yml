@@ -5,7 +5,7 @@ jobs:
     steps:
        - name : hi
          env :
-            a : ${{ hii.s }}
+            a : ${{ secrets.s }}
          run : echo  $a
    
     
